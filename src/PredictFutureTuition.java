@@ -7,9 +7,8 @@ public class PredictFutureTuition {
         int years = 0;
 
         while (tuition < doubleTuition) {
-            years++;
             tuition = tuition * 1.07;
-            System.out.println(tuition);
+            years++;
         }
 
         System.out.println(years);
